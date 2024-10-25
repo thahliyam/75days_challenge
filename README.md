@@ -6,6 +6,27 @@ Power BI offers flexible connections to a wide variety of data sources, enabling
 Day 18
 Data modeling in Power BI is the process of organizing and structuring data to support efficient and insightful analysis. It involves importing data from various sources, defining relationships between tables, and creating calculated columns and measures to enhance reporting capabilities. By setting up relationships, such as one-to-many or many-to-many, users can link tables to ensure data is consistent and queries are optimized for performance. Power BI supports both Star and Snowflake schemas, with the star schema being preferred for simpler, faster querying. Best practices for data modeling in Power BI include using descriptive names, optimizing data types, and minimizing unnecessary calculated columns to ensure models are both efficient and easy to understand. A well-designed data model not only enhances data clarity but also powers more accurate, insightful visualizations that help drive informed decision-making.
 
+Day 19
+DAX is a powerful formula language that allows users to perform complex calculations and data analysis. Calculated columns are new columns added to existing tables, defined by DAX expressions, and are useful for categorizing or transforming data that needs to be stored in memory. On the other hand, measures are calculations that are evaluated dynamically based on the context of the visual or report, making them essential for aggregating metrics like totals, averages, and KPIs. Understanding the key differences between calculated columns and measures is vital, as measures are generally preferred for their memory efficiency and flexibility. This document emphasizes best practices for using DAX, including the use of context-aware functions and performance monitoring tools. By leveraging calculated columns and measures effectively, Power BI users can build robust data models that drive insightful analysis and informed decision-making.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
