@@ -9,6 +9,14 @@ Data modeling in Power BI is the process of organizing and structuring data to s
 Day 19
 DAX is a powerful formula language that allows users to perform complex calculations and data analysis. Calculated columns are new columns added to existing tables, defined by DAX expressions, and are useful for categorizing or transforming data that needs to be stored in memory. On the other hand, measures are calculations that are evaluated dynamically based on the context of the visual or report, making them essential for aggregating metrics like totals, averages, and KPIs. Understanding the key differences between calculated columns and measures is vital, as measures are generally preferred for their memory efficiency and flexibility. This document emphasizes best practices for using DAX, including the use of context-aware functions and performance monitoring tools. By leveraging calculated columns and measures effectively, Power BI users can build robust data models that drive insightful analysis and informed decision-making.
 
+Day20
+This README provides an overview of designing interactive visualizations in Power BI, emphasizing the importance of user engagement and data exploration. Interactive visualizations allow users to manipulate and explore data through features such as filters, slicers, drill-through, and custom tooltips, enhancing the analytical experience. The document outlines key components, including various chart types, the use of slicers and filters, and best practices for clarity, consistency, and responsive design. It details the steps for creating these visualizations, from data preparation to testing and iteration, while also highlighting advanced features like bookmarks, what-if parameters, and custom visuals. By leveraging these techniques, users can create compelling and intuitive visual narratives that drive deeper insights and facilitate informed decision-making.
+
+
+
+
+
+
 
 
 
