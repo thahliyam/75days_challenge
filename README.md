@@ -12,6 +12,14 @@ DAX is a powerful formula language that allows users to perform complex calculat
 Day20
 This README provides an overview of designing interactive visualizations in Power BI, emphasizing the importance of user engagement and data exploration. Interactive visualizations allow users to manipulate and explore data through features such as filters, slicers, drill-through, and custom tooltips, enhancing the analytical experience. The document outlines key components, including various chart types, the use of slicers and filters, and best practices for clarity, consistency, and responsive design. It details the steps for creating these visualizations, from data preparation to testing and iteration, while also highlighting advanced features like bookmarks, what-if parameters, and custom visuals. By leveraging these techniques, users can create compelling and intuitive visual narratives that drive deeper insights and facilitate informed decision-making.
 
+Day21
+This repository contains a comprehensive exploration of Power BI’s AI capabilities, specifically focusing on the Quick Insights feature. Quick Insights utilizes advanced machine learning algorithms to automatically analyze datasets, revealing hidden patterns, trends, and outliers with minimal user intervention. The project showcases how this feature enhances data exploration by generating visually intuitive insights, making it easier for users to interpret complex data quickly. Additionally, the repository highlights complementary AI tools within Power BI, such as Q&A for natural language queries, Smart Narratives for AI-generated textual summaries, and Cognitive Services for advanced data analysis. Each section provides examples and best practices for effectively leveraging these tools to drive data-informed decisions and improve overall analytical workflows. This project aims to empower users of all skill levels to harness the full potential of Power BI’s AI-driven insights for better data management and visualization.
+
+
+
+
+
+
 
 
 
