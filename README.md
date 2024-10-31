@@ -15,8 +15,8 @@ This README provides an overview of designing interactive visualizations in Powe
 Day21
 This repository contains a comprehensive exploration of Power BI’s AI capabilities, specifically focusing on the Quick Insights feature. Quick Insights utilizes advanced machine learning algorithms to automatically analyze datasets, revealing hidden patterns, trends, and outliers with minimal user intervention. The project showcases how this feature enhances data exploration by generating visually intuitive insights, making it easier for users to interpret complex data quickly. Additionally, the repository highlights complementary AI tools within Power BI, such as Q&A for natural language queries, Smart Narratives for AI-generated textual summaries, and Cognitive Services for advanced data analysis. Each section provides examples and best practices for effectively leveraging these tools to drive data-informed decisions and improve overall analytical workflows. This project aims to empower users of all skill levels to harness the full potential of Power BI’s AI-driven insights for better data management and visualization.
 
-
-
+Day22
+This repository contains resources and examples for creating and sharing interactive Power BI reports, designed to transform raw data into actionable insights. Through detailed guides on data import, transformation, modeling, visualization, and sharing, this project covers the complete workflow of Power BI report development. Here, you’ll find sample reports, DAX formulas, Power Query transformations, and best practices to enhance report interactivity and optimize performance. Additionally, the repository offers guidance on publishing to Power BI Service, scheduling data refreshes, and sharing dashboards securely with stakeholders. Whether you’re a beginner or a seasoned data analyst, this collection will support you in building impactful, data-driven reports with Power BI.
 
 
 
