@@ -21,7 +21,8 @@ This repository contains resources and examples for creating and sharing interac
 Day23
 Power BI's Q&A feature revolutionizes data interaction by allowing users to engage with their data using natural language queries. This powerful tool enables users to ask questions in everyday language, such as "What were the sales last quarter?" or "Show me the top products by revenue," and receive instant visualizations based on their data. By harnessing natural language processing (NLP), Power BI breaks down barriers to data access, making insights available to users of all skill levels. The feature not only fosters a data-driven culture within organizations but also encourages interactive exploration and immediate insights. Customization options, such as adding synonyms for data fields, further enhance the user experience, ensuring accurate and relevant responses. Whether you're a student, a professional, or someone looking to enhance your data literacy, mastering Power BI's Q&A feature can significantly improve your ability to make informed decisions and drive business outcomes.
 
-
+Day24
+This project demonstrates the power of custom visuals in Power BI, enhancing data storytelling by providing tailored visualization options beyond the default offerings. Custom visuals allow users to present complex insights in an engaging, intuitive way, making them essential tools for effective data communication. In this guide, you’ll learn how to access, import, and use custom visuals from Power BI’s AppSource marketplace, understand the types of visuals available (certified, community, and custom-built), and apply best practices for performance, security, and accessibility. Whether you’re looking to create a unique dashboard or solve specific data visualization challenges, this guide offers practical steps and insights for integrating custom visuals seamlessly into your Power BI reports.
 
 
 
