@@ -24,8 +24,8 @@ Power BI's Q&A feature revolutionizes data interaction by allowing users to enga
 Day24
 This project demonstrates the power of custom visuals in Power BI, enhancing data storytelling by providing tailored visualization options beyond the default offerings. Custom visuals allow users to present complex insights in an engaging, intuitive way, making them essential tools for effective data communication. In this guide, you’ll learn how to access, import, and use custom visuals from Power BI’s AppSource marketplace, understand the types of visuals available (certified, community, and custom-built), and apply best practices for performance, security, and accessibility. Whether you’re looking to create a unique dashboard or solve specific data visualization challenges, this guide offers practical steps and insights for integrating custom visuals seamlessly into your Power BI reports.
 
-
-
+Day25
+This Power BI project demonstrates the implementation of Row-Level Security (RLS) to ensure controlled access to data based on user roles. RLS restricts data visibility at the row level, allowing different users to view only the data that’s relevant to them. This repository provides a sample dataset, Power BI file (.pbix), and step-by-step instructions on setting up RLS, including both static and dynamic RLS configurations. Static RLS applies pre-defined filters to each role, while dynamic RLS uses DAX functions like USERPRINCIPALNAME() to filter data based on the logged-in user's identity. By following this guide, users can enhance data privacy, improve compliance, and provide tailored reports—all within a single, secure Power BI environment. This project is ideal for analysts and developers looking to apply secure, role-based access controls in their Power BI reports.
 
 
 
