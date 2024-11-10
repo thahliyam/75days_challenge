@@ -27,7 +27,8 @@ This project demonstrates the power of custom visuals in Power BI, enhancing dat
 Day25
 This Power BI project demonstrates the implementation of Row-Level Security (RLS) to ensure controlled access to data based on user roles. RLS restricts data visibility at the row level, allowing different users to view only the data that’s relevant to them. This repository provides a sample dataset, Power BI file (.pbix), and step-by-step instructions on setting up RLS, including both static and dynamic RLS configurations. Static RLS applies pre-defined filters to each role, while dynamic RLS uses DAX functions like USERPRINCIPALNAME() to filter data based on the logged-in user's identity. By following this guide, users can enhance data privacy, improve compliance, and provide tailored reports—all within a single, secure Power BI environment. This project is ideal for analysts and developers looking to apply secure, role-based access controls in their Power BI reports.
 
-
+Day26
+Power BI’s incremental refresh is designed to optimize the refresh process for large datasets by updating only the most recent data changes, rather than reloading the entire dataset. This approach improves performance, reduces processing time, and lowers resource costs, especially for datasets that accumulate data over time, such as transactional or IoT data. With incremental refresh, users can set specific retention policies and refresh only relevant data partitions, supporting real-time insights without overburdening the system. This README provides an overview of incremental refresh setup, requirements like query folding, and best practices to ensure an efficient, scalable data management workflow in Power BI.
 
 
 
