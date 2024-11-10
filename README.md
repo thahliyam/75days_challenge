@@ -30,7 +30,8 @@ This Power BI project demonstrates the implementation of Row-Level Security (RLS
 Day26
 Power BI’s incremental refresh is designed to optimize the refresh process for large datasets by updating only the most recent data changes, rather than reloading the entire dataset. This approach improves performance, reduces processing time, and lowers resource costs, especially for datasets that accumulate data over time, such as transactional or IoT data. With incremental refresh, users can set specific retention policies and refresh only relevant data partitions, supporting real-time insights without overburdening the system. This README provides an overview of incremental refresh setup, requirements like query folding, and best practices to ensure an efficient, scalable data management workflow in Power BI.
 
-
+Day27
+This Power BI project focuses on Creating and Using Bookmarks to improve report interactivity and navigation. Bookmarks in Power BI capture specific configurations, such as filters, visual states, and slicer settings, allowing users to create customized views and guided storytelling within reports. By leveraging bookmarks, you can streamline the user experience, making it easy for viewers to navigate through key insights, predefined scenarios, or tailored perspectives without adjusting settings manually. This feature enhances both the usability and functionality of Power BI reports, transforming static data into interactive, user-friendly dashboards that support diverse analytical needs. Explore the project to see how bookmarks can elevate data storytelling and user engagement in Power BI!
 
 
 
