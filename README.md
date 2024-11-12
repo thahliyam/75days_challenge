@@ -36,7 +36,8 @@ This Power BI project focuses on Creating and Using Bookmarks to improve report 
 Day28
 This project demonstrates the implementation of hierarchies and drill-down functionality in Power BI, aiming to enhance data visualization and analysis. By organizing data into logical hierarchies (e.g., Year → Month → Day or Region → Country → City) and enabling drill-down capabilities, users can interactively explore data at multiple levels of granularity. This approach simplifies complex datasets, allowing for deeper insights and more meaningful analysis. The report includes step-by-step guides on creating hierarchies, enabling drill-down features, and best practices for optimizing these functionalities in Power BI. Whether you are working with sales, performance metrics, or geographical data, this project showcases how to create dynamic, user-friendly reports that empower data-driven decision-making. The solution can be customized for various business needs, improving both the efficiency and interactivity of reports.
 
-
+Day29
+The Power BI Mobile App brings the power of data analysis to your fingertips, enabling users to access, interact with, and share business intelligence from anywhere, at any time. This mobile app allows seamless viewing of reports and dashboards, with full interactivity, real-time data updates, and offline access for enhanced flexibility. The app supports mobile-optimized views, drill-down functionality, and personalized alerts to ensure that users can make data-driven decisions while on the go. It integrates with secure authentication mechanisms like multi-factor authentication (MFA) and single sign-on (SSO) to protect sensitive data, and also enables collaboration through sharing and commenting. With voice integration for hands-free data exploration, the Power BI Mobile App empowers users to stay informed and act quickly—transforming data into actionable insights no matter where you are.
 
 
 
