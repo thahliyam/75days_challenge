@@ -39,7 +39,8 @@ This project demonstrates the implementation of hierarchies and drill-down funct
 Day29
 The Power BI Mobile App brings the power of data analysis to your fingertips, enabling users to access, interact with, and share business intelligence from anywhere, at any time. This mobile app allows seamless viewing of reports and dashboards, with full interactivity, real-time data updates, and offline access for enhanced flexibility. The app supports mobile-optimized views, drill-down functionality, and personalized alerts to ensure that users can make data-driven decisions while on the go. It integrates with secure authentication mechanisms like multi-factor authentication (MFA) and single sign-on (SSO) to protect sensitive data, and also enables collaboration through sharing and commenting. With voice integration for hands-free data exploration, the Power BI Mobile App empowers users to stay informed and act quickly—transforming data into actionable insights no matter where you are.
 
-
+Day30
+This repository showcases the powerful synergy between Power BI and programming languages like Python and R to unlock advanced data analytics and visualization capabilities. Explore how Python and R are used for custom visuals, data transformations, machine learning, and statistical analysis, bringing unparalleled interactivity and depth to your reports. From creating predictive models to generating unique charts, this project highlights practical use cases that bridge the gap between business intelligence and data science. Dive in and transform the way you analyze and present data
 
 
 
