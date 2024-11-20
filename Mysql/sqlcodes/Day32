@@ -1,0 +1,23 @@
+create table Student_name( RegNO INT, Sname VARCHAR(30));
+create table Parent_name( RegNO INT, Pname VARCHAR(30));
+
+INSERT INTO Student_name VALUES(1, 'Alice'), (2, 'Bob'),
+(3, 'Charlie'),(4, 'Eve'),(7,'Chris'),(6,'Tanvi');
+
+INSERT INTO Parent_name VALUES(1, 'Arun'),(2, 'Babi'),
+(3, 'Choi'),(4, 'Evelyn'),(5,'Sahal'),(6,'Tanvi');
+
+-- inner join
+select * from Student_name inner join Parent_name on Student_name.RegNO = Parent_name.RegNO;
+                          
+-- left join
+select Student_name.RegNo,Student_name.Sname,Parent_name.Pname from Student_name left join Parent_name
+ on Student_name.RegNO = Parent_name.RegNO;
+
+-- rightjoin
+select S.RegNo,S.Sname,P.Pname from Student_name as S right join Parent_name as P on S.RegNO = P.RegNO;
+
+-- full outer join
+select * from Student_name left join Parent_name on Student_name.RegNO = Parent_name.RegNO
+union
+select * from Student_name right join Parent_name on Student_name.RegNO = Parent_name.RegNO;
