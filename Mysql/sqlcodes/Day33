@@ -1,0 +1,38 @@
+CREATE TABLE Selected_Students (
+    roll_number INT PRIMARY KEY,  
+    student_name VARCHAR(100),   
+    batch_number INT,             
+    standard INT CHECK (standard BETWEEN 8 AND 10), 
+    height_cm DECIMAL(5, 2),     
+    instructor_name VARCHAR(100), 
+    age INT CHECK (age > 12 AND age < 17) 
+);
+
+INSERT INTO Selected_Students (roll_number, student_name, batch_number, standard, height_cm, instructor_name, age)
+VALUES
+(101, 'Aryan Sharma', 1, 8, 160.5, 'Mr. Anil Kumar', 14),
+(102, 'Neha Verma', 2, 9, 155.3, 'Ms. Priya Singh', 15),
+(103, 'Rahul Gupta', 1, 10, 162.0, 'Mr. Anil Kumar', 16),
+(104, 'Sneha Raj', 3, 8, 150.0, 'Ms. Priya Singh', 13),
+(105, 'Vikram Mehta', 1, 9, 165.4, 'Mr. Rajesh Sharma', 15),
+(106, 'Pooja Nair', 2, 10, 158.7, 'Ms. Priya Singh', 16),
+(107, 'Manoj Kumar', 1, 8, 163.9, 'Mr. Anil Kumar', 14),
+(108, 'Divya Patel', 2, 9, 159.5, 'Ms. Priya Singh', 15),
+(109, 'Amit Singh', 3, 10, 161.2, 'Mr. Rajesh Sharma', 16),
+(110, 'Riya Kapoor', 1, 9, 157.8, 'Ms. Priya Singh', 14);
+
+select * from selected_students;
+
+-- Aggregate functions
+select sum(age) as Total_age from selected_students;
+
+-- count of students
+select count(*) as Students_count from selected_students;
+select count(standard) from selected_students;
+
+-- group by
+select instructor_name,count(*) from selected_students
+group by instructor_name;
+
+select batch_number,avg(height_cm) as Avg_height from selected_students 
+group by batch_number;
