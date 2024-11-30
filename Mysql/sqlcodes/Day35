@@ -1,0 +1,18 @@
+-- create a table
+create table students(roll_no int,first_name varchar(30),contact_no varchar(10),joining_date date);
+desc students;
+
+insert into students(roll_no,first_name,contact_no,joining_date)values
+(3,"Akhil","7777437777" ,'2023-01-11'),(4,"bincy","7777325777" ,'2023-01-21'),
+(5,"Akhila","7777231177" ,'2023-01-14'),(6,"daliya","7777721777" ,'2023-01-11'),
+(7,"hari","7773227777" ,'2023-01-11'),(8,"Akhila","7777799777" ,'2023-01-15'),
+(9,"Akhila","7777700777" ,'2023-01-11'),(10,"john","7777777798" ,'2023-01-11'),
+(11,"Akhila","7777777777" ,'2023-01-11'),(12,"roshan","7777777777" ,'2023-01-11'),
+(13,"sneha","7777777777" ,'2023-01-11');
+
+-- adding new column
+alter table students add classteacher char(15);
+
+alter table students change column first_name name varchar(30);
+
+update students set roll_no = 10 where roll_no=
