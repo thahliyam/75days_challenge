@@ -1,0 +1,45 @@
+CREATE TABLE Employee1 (
+    EmpID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Department VARCHAR(50)
+);
+
+INSERT INTO Employee1 (Name, Age, Department) VALUES
+('Alice', 30, 'HR'),
+('Bob', 25, 'IT'),
+('Charlie', 35, 'Finance'),
+('David', 28, 'Marketing'),
+('Eve', 40, 'Admin');
+
+-- View the data
+SELECT * FROM Employee1;
+
+select @@autocommit;
+
+set autocommit=0;
+
+INSERT INTO Employee1(Name, Age, Department) VALUES ('Frank', 33, 'Operations');
+commit;
+
+delete from employee1 where age=30;
+set sql_safe_updates=0;
+
+rollback;
+
+truncate table employee1;
+rollback;
+
+-- Insert new rows
+INSERT INTO Employee1 (Name, Age, Department) VALUES ('Grace', 29, 'Design');
+SAVEPOINT SavePoint1;
+
+INSERT INTO Employee1 (Name, Age, Department) VALUES ('Hank', 31, 'Sales');
+SAVEPOINT SavePoint2;
+
+-- Check data after inserts
+SELECT * FROM Employee1;
+
+Rollback to savepoint1;
+commit;
+set autocommit=1;
