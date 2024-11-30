@@ -1,0 +1,40 @@
+CREATE TABLE employee_log ( 
+log_id INT AUTO_INCREMENT PRIMARY KEY, 
+employee_id INT, 
+action VARCHAR(50), 
+action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
+); 
+-- Inserting Data into `employees` 
+INSERT INTO employees_new (Name , position, salary) VALUES 
+('Alice', 'Manager', 70000), 
+('Bob', 'Developer', 50000), 
+('Charlie', 'Analyst', 45000), 
+('Diana', 'Designer', 40000), 
+('Evan', 'Developer', 52000), 
+('Fay', 'Intern', 25000), 
+('Gina', 'Manager', 68000), 
+('Hank', 'Analyst', 48000), 
+('Ivy', 'Developer', 51000), 
+('Jack', 'Designer', 43000); 
+
+  /* Syntax of Triggers: 
+DELIMITER $$ 
+CREATE TRIGGER Trigger_name 
+BEFORE INSERT ON Table_name 
+FOR EACH ROW 
+BEGIN 
+block of code 
+END $$ 
+DELIMITER ; */
+
+Delimiter $$
+create trigger before_insert_employee
+before insert on employees_new for each row
+begin
+if new.salary<20000
+then
+SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT='Employees with salary less than 
+20000 not allowed';
+end if;
+end $$
+delimiter ;
