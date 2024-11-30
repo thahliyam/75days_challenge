@@ -1,0 +1,23 @@
+delimiter $$
+create procedure greet(in user_name varchar(50))
+begin
+select concat("Hi"," ",user_name);
+end $$
+delimiter ;
+
+
+call greet ("Akshay");
+
+-- select 
+-- sp2 for greeting a user
+
+delimiter $$
+create procedure greet2(in user_name varchar(50),out to_do varchar(50))
+begin
+set to_do=concat("Hi"," ",user_name,"Run");
+end $$
+delimiter ;
+
+set @hi="";
+call greet2("JOHN",@hi);
+select @hi as greet_and_to_do;
