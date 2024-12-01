@@ -1,0 +1,37 @@
+CREATE TABLE Players (
+    Player_Code INT PRIMARY KEY,
+    Player_Name VARCHAR(50),
+    Player_Role VARCHAR(20),
+    Age INT,
+    Instructor_Name VARCHAR(50),
+    Strike_Rate DECIMAL(5, 2)
+);
+
+INSERT INTO Players (Player_Code, Player_Name, Player_Role, Age, Instructor_Name, Strike_Rate)
+VALUES 
+(1, 'John Smith', 'Batsman', 28, 'Mr. Williams', 89.75),
+(2, 'Alex Johnson', 'Bowler', 32, 'Mr. Thompson', 75.23),
+(3, 'Michael Clarke', 'All-rounder', 30, 'Mr. Johnson', 92.44),
+(4, 'David Warner', 'Batsman', 27, 'Mr. Brown', 88.64),
+(5, 'Sarah Lee', 'Bowler', 29, 'Mrs. Taylor', 77.35),
+(6, 'Chris Taylor', 'All-rounder', 31, 'Mr. Cooper', 91.12),
+(7, 'Jessica Brown', 'Batsman', 26, 'Mrs. Johnson', 93.78),
+(8, 'Robert Wilson', 'Bowler', 33, 'Mr. Taylor', 74.89),
+(9, 'Emily Davis', 'All-rounder', 28, 'Mrs. Thompson', 95.43),
+(10, 'Jake White', 'Batsman', 29, 'Mr. Williams', 87.56);
+
+create view player_view as select Player_Code,Player_Name,Age 
+from players;
+
+select * from player_view;
+
+insert into player_view (Player_Code,Player_Name,Age )
+values (11,'Abhi',22);
+
+CREATE VIEW Player_Summary_View AS
+SELECT 
+    Player_Role,
+    COUNT(Player_Code) AS Total_Players,
+    AVG(Age) AS Average_Age,
+    AVG(Strike_Rate) AS Average_Strike_Rate
+FROM Players GROUP BY Player_Role;
